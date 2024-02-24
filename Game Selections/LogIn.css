@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.container{
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(108, 77, 179);
+    width: 500px;
+    padding: 60px 40px 60px 60px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+.container .text{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.container form{
+    margin-top: 20px;
+}
+.container form .data{
+    height: 50px;
+    width: 100%;
+    margin: 40px 0 20px 0;
+}
+form .data label{
+    font-size: 17px;
+}
+form .data input{
+    height: 90%;
+    width: 90%;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid lightgrey;
+}
+.forgotps{
+    padding: 10px 10px 10px 0;
+}
+.backbtn{
+    font-size: 25px;
+}
+.fa-arrow-left-long{
+    color: black;
+}
+.btn button{
+    padding: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(195, 195, 195);
+    padding: 10px;
+}
